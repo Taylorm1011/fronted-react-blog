@@ -58,7 +58,7 @@ const SignUp = ({ setUser }) => {
                 <input
                     type="file"
                     className="form-control"
-                    name="image"
+                    name="profileImg"
                     id="image"
                     onChange={cloudHandler}
                     onSubmit={handleChange}
