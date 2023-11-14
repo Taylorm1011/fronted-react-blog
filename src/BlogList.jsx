@@ -8,7 +8,7 @@ const BlogList = () => {
     useEffect(() => {
 
         const getBlogs = async () => {
-            let res = await axios.get("http://localhost:3000/get-blogs");
+            let res = await axios.get("https://backend-react-blog.onrender.com/get-blogs");
 
             console.log(res.data)
             setBlogs(res.data.blogs)
