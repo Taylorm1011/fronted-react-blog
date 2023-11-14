@@ -27,7 +27,7 @@ const Login = ({ setUser }) => {
 
         // console.log(form.title, form.author, form.description);
 
-        await axios.post("http://localhost:3000/login", form).then((res) => {
+        await axios.post("https://backend-react-blog.onrender.com/login", form).then((res) => {
             console.log(res.data)
             if (res.data.message) {
                 setError(res.data.message)
