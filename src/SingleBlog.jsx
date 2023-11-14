@@ -8,7 +8,7 @@ const SingleBlog = () => {
   const [blog, setBlog] = useState()
 
   useEffect(() => {
-    axios.get(`http://localhost:3000/blog/${id}`).then(res => {
+    axios.get(`https://backend-react-blog.onrender.com/blog/${id}`).then(res => {
       console.log(res.data.blog)
       setBlog(res.data.blog)
 
