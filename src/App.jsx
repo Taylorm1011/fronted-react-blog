@@ -25,7 +25,7 @@ function App() {
       <div>
 
         <header>
-          <img src='public/1.png'></img>
+          <img src='1.png'></img>
         </header>
 
         
