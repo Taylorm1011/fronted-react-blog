@@ -44,7 +44,7 @@ const SignUp = ({ setUser }) => {
 
         // console.log(form.title, form.author, form.description);
 
-        await axios.post("http://localhost:3000/signup", form).then(res => {
+        await axios.post("https://backend-react-blog.onrender.com/signup", form).then(res => {
             setUser(res.data.user)
         })
         
